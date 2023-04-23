@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="PfnMbQ" name="NoiseGenerator" projectType="guiapp" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1">
+  <MAINGROUP id="KYHqjt" name="NoiseGenerator">
+    <GROUP id="{808BD69E-C684-B3BE-20F1-6F1BB273554D}" name="Source">
+      <FILE id="li0kYG" name="DecibelSlider.cpp" compile="1" resource="0"
+            file="Source/DecibelSlider.cpp"/>
+      <FILE id="gI6JLs" name="DecibelSlider.h" compile="0" resource="0" file="Source/DecibelSlider.h"/>
+      <FILE id="PukIgw" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="sBm2S3" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="CKDzHN" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+  <EXPORTFORMATS>
+    <LINUX_MAKE targetFolder="Builds/LinuxMakefile">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="NoiseGenerator"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="NoiseGenerator"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../../../../usr/local/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../../../usr/local/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../../../usr/local/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../../../usr/local/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../../../usr/local/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../../../../usr/local/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../../usr/local/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../../../usr/local/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../../usr/local/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../../usr/local/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../../../usr/local/JUCE/modules"/>
+      </MODULEPATHS>
+    </LINUX_MAKE>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+</JUCERPROJECT>
